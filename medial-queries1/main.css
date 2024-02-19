@@ -23,6 +23,7 @@ body {
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  width: 100%; 
 }
 .c {
   background-color: cyan; 
@@ -42,8 +43,10 @@ body {
     margin: 10px; 
   }
   .b {
-    flex-grow: 3; 
+    flex-grow: 2; 
+    max-width: 80%; 
     margin: 10px; 
+
   }
   .c {
     flex-grow: 1; 
