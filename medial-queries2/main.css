@@ -49,7 +49,6 @@ aside {
   display: flex; 
   width: 100%; 
   justify-content: space-between;
-
 }
 .row div{
   width: 100px; 
@@ -59,7 +58,44 @@ aside {
   align-items: center;
   background-color: grey;
 }
+@media (min-width: 600px) {
 
+  .screen {
+    display: flex; 
+    width: 90%;
+    height: 75vh;
+    margin: 0 auto; 
+    justify-content: space-between;
+  }
+  header {
+    height: 20vh;
+  }
+  main {
+    width: 75%; 
+    height: 100%;
+    margin: 0 10px 0 0 ; 
+  }
+  aside {
+    width: 30%; 
+    margin: 0 0 0 10px; 
+    height: 100%; 
+    
+  }
+  .image {
+    height: 80%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    background-color: grey;
+  }
+  .row div{
+    width: 275px; 
+    height: 275px; 
+    margin-top: 10px; 
+  }
+  
+}
 
 
 /* header {
